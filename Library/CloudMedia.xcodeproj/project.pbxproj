@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8AE129E1AB9AA9D0014E31E /* libCloudMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AE12921AB9AA9D0014E31E /* libCloudMedia.a */; };
+		F8AE12B91AB9AB670014E31E /* CMMediaCropEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AE12B21AB9AB670014E31E /* CMMediaCropEditor.m */; };
+		F8AE12BA1AB9AB670014E31E /* CMMediaEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AE12B41AB9AB670014E31E /* CMMediaEditor.m */; };
+		F8AE12BB1AB9AB670014E31E /* CMMediaMergeEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AE12B61AB9AB670014E31E /* CMMediaMergeEditor.m */; };
+		F8AE12BC1AB9AB670014E31E /* CMMediaStillImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AE12B81AB9AB670014E31E /* CMMediaStillImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8AE129F1AB9AA9D0014E31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8AE128A1AB9AA9C0014E31E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8AE12911AB9AA9D0014E31E;
+			remoteInfo = CloudMedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8AE12901AB9AA9D0014E31E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F8AE12921AB9AA9D0014E31E /* libCloudMedia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCloudMedia.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8AE129D1AB9AA9D0014E31E /* CloudMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8AE12A31AB9AA9D0014E31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8AE12AD1AB9AABC0014E31E /* CloudMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudMedia.h; sourceTree = "<group>"; };
+		F8AE12B01AB9AB670014E31E /* CMMediaEditorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMediaEditorProtocol.h; sourceTree = "<group>"; };
+		F8AE12B11AB9AB670014E31E /* CMMediaCropEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMediaCropEditor.h; sourceTree = "<group>"; };
+		F8AE12B21AB9AB670014E31E /* CMMediaCropEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMediaCropEditor.m; sourceTree = "<group>"; };
+		F8AE12B31AB9AB670014E31E /* CMMediaEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMediaEditor.h; sourceTree = "<group>"; };
+		F8AE12B41AB9AB670014E31E /* CMMediaEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMediaEditor.m; sourceTree = "<group>"; };
+		F8AE12B51AB9AB670014E31E /* CMMediaMergeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMediaMergeEditor.h; sourceTree = "<group>"; };
+		F8AE12B61AB9AB670014E31E /* CMMediaMergeEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMediaMergeEditor.m; sourceTree = "<group>"; };
+		F8AE12B71AB9AB670014E31E /* CMMediaStillImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMediaStillImage.h; sourceTree = "<group>"; };
+		F8AE12B81AB9AB670014E31E /* CMMediaStillImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMediaStillImage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8AE128F1AB9AA9D0014E31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8AE129A1AB9AA9D0014E31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AE129E1AB9AA9D0014E31E /* libCloudMedia.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8AE12891AB9AA9C0014E31E = {
+			isa = PBXGroup;
+			children = (
+				F8AE12941AB9AA9D0014E31E /* CloudMedia */,
+				F8AE12A11AB9AA9D0014E31E /* CloudMediaTests */,
+				F8AE12931AB9AA9D0014E31E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8AE12931AB9AA9D0014E31E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8AE12921AB9AA9D0014E31E /* libCloudMedia.a */,
+				F8AE129D1AB9AA9D0014E31E /* CloudMediaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8AE12941AB9AA9D0014E31E /* CloudMedia */ = {
+			isa = PBXGroup;
+			children = (
+				F8AE12AC1AB9AABC0014E31E /* Source */,
+			);
+			path = CloudMedia;
+			sourceTree = "<group>";
+		};
+		F8AE12A11AB9AA9D0014E31E /* CloudMediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8AE12A21AB9AA9D0014E31E /* Supporting Files */,
+			);
+			path = CloudMediaTests;
+			sourceTree = "<group>";
+		};
+		F8AE12A21AB9AA9D0014E31E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8AE12A31AB9AA9D0014E31E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8AE12AC1AB9AABC0014E31E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F8AE12AD1AB9AABC0014E31E /* CloudMedia.h */,
+				F8AE12B01AB9AB670014E31E /* CMMediaEditorProtocol.h */,
+				F8AE12B31AB9AB670014E31E /* CMMediaEditor.h */,
+				F8AE12B41AB9AB670014E31E /* CMMediaEditor.m */,
+				F8AE12B11AB9AB670014E31E /* CMMediaCropEditor.h */,
+				F8AE12B21AB9AB670014E31E /* CMMediaCropEditor.m */,
+				F8AE12B51AB9AB670014E31E /* CMMediaMergeEditor.h */,
+				F8AE12B61AB9AB670014E31E /* CMMediaMergeEditor.m */,
+				F8AE12B71AB9AB670014E31E /* CMMediaStillImage.h */,
+				F8AE12B81AB9AB670014E31E /* CMMediaStillImage.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8AE12911AB9AA9D0014E31E /* CloudMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8AE12A61AB9AA9D0014E31E /* Build configuration list for PBXNativeTarget "CloudMedia" */;
+			buildPhases = (
+				F8AE128E1AB9AA9D0014E31E /* Sources */,
+				F8AE128F1AB9AA9D0014E31E /* Frameworks */,
+				F8AE12901AB9AA9D0014E31E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudMedia;
+			productName = CloudMedia;
+			productReference = F8AE12921AB9AA9D0014E31E /* libCloudMedia.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F8AE129C1AB9AA9D0014E31E /* CloudMediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8AE12A91AB9AA9D0014E31E /* Build configuration list for PBXNativeTarget "CloudMediaTests" */;
+			buildPhases = (
+				F8AE12991AB9AA9D0014E31E /* Sources */,
+				F8AE129A1AB9AA9D0014E31E /* Frameworks */,
+				F8AE129B1AB9AA9D0014E31E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8AE12A01AB9AA9D0014E31E /* PBXTargetDependency */,
+			);
+			name = CloudMediaTests;
+			productName = CloudMediaTests;
+			productReference = F8AE129D1AB9AA9D0014E31E /* CloudMediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8AE128A1AB9AA9C0014E31E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = darcyzhang;
+				TargetAttributes = {
+					F8AE12911AB9AA9D0014E31E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F8AE129C1AB9AA9D0014E31E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = F8AE128D1AB9AA9C0014E31E /* Build configuration list for PBXProject "CloudMedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8AE12891AB9AA9C0014E31E;
+			productRefGroup = F8AE12931AB9AA9D0014E31E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8AE12911AB9AA9D0014E31E /* CloudMedia */,
+				F8AE129C1AB9AA9D0014E31E /* CloudMediaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8AE129B1AB9AA9D0014E31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8AE128E1AB9AA9D0014E31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AE12B91AB9AB670014E31E /* CMMediaCropEditor.m in Sources */,
+				F8AE12BC1AB9AB670014E31E /* CMMediaStillImage.m in Sources */,
+				F8AE12BA1AB9AB670014E31E /* CMMediaEditor.m in Sources */,
+				F8AE12BB1AB9AB670014E31E /* CMMediaMergeEditor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8AE12991AB9AA9D0014E31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8AE12A01AB9AA9D0014E31E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8AE12911AB9AA9D0014E31E /* CloudMedia */;
+			targetProxy = F8AE129F1AB9AA9D0014E31E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8AE12A41AB9AA9D0014E31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8AE12A51AB9AA9D0014E31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8AE12A71AB9AA9D0014E31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8AE12A81AB9AA9D0014E31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F8AE12AA1AB9AA9D0014E31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloudMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8AE12AB1AB9AA9D0014E31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloudMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8AE128D1AB9AA9C0014E31E /* Build configuration list for PBXProject "CloudMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8AE12A41AB9AA9D0014E31E /* Debug */,
+				F8AE12A51AB9AA9D0014E31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8AE12A61AB9AA9D0014E31E /* Build configuration list for PBXNativeTarget "CloudMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8AE12A71AB9AA9D0014E31E /* Debug */,
+				F8AE12A81AB9AA9D0014E31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8AE12A91AB9AA9D0014E31E /* Build configuration list for PBXNativeTarget "CloudMediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8AE12AA1AB9AA9D0014E31E /* Debug */,
+				F8AE12AB1AB9AA9D0014E31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8AE128A1AB9AA9C0014E31E /* Project object */;
+}
